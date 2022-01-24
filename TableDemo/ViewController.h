@@ -9,7 +9,7 @@
 
 @interface ViewController : UIViewController
 
-- (void)containerDidScroll:(UIScrollView *)scrollView;
+- (void)setDockViewAlign:(NSLayoutAnchor *)anchor;
 
 @end
 

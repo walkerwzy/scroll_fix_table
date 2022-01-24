@@ -9,7 +9,7 @@
 #import "UIViewController+Extension.h"
 #import "ViewController.h"
 
-@interface ContainerViewController () <UIScrollViewDelegate>
+@interface ContainerViewController ()
 
 // 最外层容器
 @property (nonatomic, strong) UIScrollView *scrollView;
@@ -45,23 +45,19 @@
     [view2.heightAnchor constraintEqualToConstant:100].active = YES;
     
     UIScrollView *view3 = [[UIScrollView alloc] init];
-    view3.delegate = self;
     view3.backgroundColor = UIColor.blueColor;
     [self.stackView addArrangedSubview:view3];
+    // 此处要固定高度，不然外层scrollview的contentSize无法明确，会产生警告
 //    [view3.heightAnchor constraintEqualToConstant:600].active = YES;
     [view3.heightAnchor constraintGreaterThanOrEqualToConstant:400.0f].active = YES;
     
     ViewController *vc = [[ViewController alloc] init];
+    [vc setDockViewAlign:self.view.trailingAnchor];
     [self addChildViewController:vc];
     [self fillView:vc.view inView:view3];
     [vc.view.widthAnchor constraintEqualToConstant:1200].active = YES;
     [vc.view.heightAnchor constraintEqualToAnchor:view3.heightAnchor].active = YES;
     self.tableViewController = vc;
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    // 滑动位置传递给子视图
-    [self.tableViewController containerDidScroll:scrollView];
 }
 
 @end

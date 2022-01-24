@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D3EBB55279C8A49003BB540 /* ProjTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EBB54279C8A49003BB540 /* ProjTableViewCell.m */; };
+		D51ABC3F279CF4C8001F955F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D51ABC3E279CF4C8001F955F /* UIView+Extension.m */; };
 		D5E6524C279BDCFC008E9AC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E6524B279BDCFC008E9AC2 /* AppDelegate.m */; };
 		D5E65252279BDCFC008E9AC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E65251279BDCFC008E9AC2 /* ViewController.m */; };
 		D5E65255279BDCFC008E9AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E65253279BDCFC008E9AC2 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		5D3EBB53279C8A49003BB540 /* ProjTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjTableViewCell.h; sourceTree = "<group>"; };
 		5D3EBB54279C8A49003BB540 /* ProjTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjTableViewCell.m; sourceTree = "<group>"; };
+		D51ABC3D279CF4C8001F955F /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D51ABC3E279CF4C8001F955F /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		D5E65247279BDCFC008E9AC2 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E6524A279BDCFC008E9AC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5E6524B279BDCFC008E9AC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				D5E65251279BDCFC008E9AC2 /* ViewController.m */,
 				D5E65269279BF489008E9AC2 /* UIViewController+Extension.h */,
 				D5E6526A279BF489008E9AC2 /* UIViewController+Extension.m */,
+				D51ABC3D279CF4C8001F955F /* UIView+Extension.h */,
+				D51ABC3E279CF4C8001F955F /* UIView+Extension.m */,
 				D5E65253279BDCFC008E9AC2 /* Main.storyboard */,
 				D5E65256279BDCFE008E9AC2 /* Assets.xcassets */,
 				D5E65258279BDCFE008E9AC2 /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 				D5E65252279BDCFC008E9AC2 /* ViewController.m in Sources */,
 				D5E6524C279BDCFC008E9AC2 /* AppDelegate.m in Sources */,
 				5D3EBB55279C8A49003BB540 /* ProjTableViewCell.m in Sources */,
+				D51ABC3F279CF4C8001F955F /* UIView+Extension.m in Sources */,
 				D5E65265279BF3CF008E9AC2 /* ContainerViewController.m in Sources */,
 				D5E6526B279BF489008E9AC2 /* UIViewController+Extension.m in Sources */,
 				D5E6525D279BDCFE008E9AC2 /* main.m in Sources */,

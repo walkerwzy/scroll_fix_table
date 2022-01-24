@@ -13,6 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 //@property(nonatomic, strong) UIView *topview;
 //@property(nonatomic, strong) UIView *bottomview;
 @property(nonatomic, strong) UIStackView *stackview;
+@property (nonatomic, readonly) UIView *dockView;
+@property (nonatomic, strong) NSDictionary *data;
+@property (nonatomic, strong) NSLayoutAnchor *dockViewAlignAnchor;
+
 @end
 
 NS_ASSUME_NONNULL_END
